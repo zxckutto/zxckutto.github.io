@@ -1,0 +1,26 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+p {
+    color: #333333;
+    font-size: 18px;
+}
+
+img {
+    border-radius: 50%;       /* делает круглую аватарку */
+    display: block;           /* чтобы можно было центрировать */
+    margin: 0 auto;           /* выравнивает по центру */
+}
+
+.skills {
+    display: flex;            /* включает "гибкую" раскладку */
+    justify-content: center;  /* центрирует по горизонтали */
+    gap: 40px;                /* расстояние между колонками */
+}
